@@ -1,0 +1,47 @@
+.report-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filters input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.chart-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .chart-item {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+/* Basic styling for the container */
+.container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 100vh;
+  }
+  
+  /* Header section with buttons */
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .switch-button, .report-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .switch-button:hover, .report-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .report-button {
+    background-color: #28a745;
+  }
+  
+  .report-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Styling for the editor container */
+  .editor-container {
+    width: 80%;
+    max-width: 800px;
+    height: 75%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer section */
+  .footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+  }
+  
